@@ -1,4 +1,5 @@
 # Kernel-pwnbase使用方法
+> 详细说明：[Kernel-pwnbase详解](https://loora1n.github.io/2022/10/17/NewStarCTF%20Week4%20PWN%20WP/)
 1. 将bzImage, rootfs, boot.sh等文件放入file文件夹
 2. docker build -t id/name .
 3. docker push id/name

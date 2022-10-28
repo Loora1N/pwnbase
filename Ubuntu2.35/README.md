@@ -27,3 +27,6 @@ RUN chmod +x /pwn/pwn && \
     patchelf --replace-needed libc.so.6 /pwn/libc-2.32.so /pwn/pwn   
 ```
 把elf, libc, ld 文件都放入你新建的pwn目录,可执行程序命名为pwn，然后根据情况更改dockerfile构建你的dockerfile镜像即可
+
+## 更多详细内容请见博客
+[适用多版本libc的pwn-base](https://loora1n.github.io/2022/10/28/%E9%80%82%E7%94%A8%E5%A4%9A%E7%89%88%E6%9C%AClibc%E7%9A%84pwn-base/)

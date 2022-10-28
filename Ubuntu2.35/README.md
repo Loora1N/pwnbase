@@ -1,4 +1,4 @@
-##适用glibc2.35一下所有版本程序
+## 适用glibc2.35一下所有版本程序
 内置patchelf程序，可自行更换libc，不必构建多个pwnbase环境
 ## libc版本
 GNU C Library (Ubuntu GLIBC 2.35-0ubuntu3.1) stable release version 2.35.

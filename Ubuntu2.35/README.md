@@ -22,7 +22,7 @@ FROM loora1n/ubuntu2.35
 COPY pwn /pwn/pwn
 COPY ld-2.32.so /pwn/ld-2.32.so
 COPY libc-2.32.so /pwn/libc-2.32.so
-RUN chmod +x /pwn/pwn && \
+RUN chmod +x /pwn/ld-2.32.so && \
     patchelf --set-interpreter /pwn/ld-2.32.so /pwn/pwn && \
     patchelf --replace-needed libc.so.6 /pwn/libc-2.32.so /pwn/pwn   
 ```

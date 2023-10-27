@@ -4,3 +4,7 @@
 
 ## 注意
 用户态pwnbase暂时仅支持glibc版本在ubuntu22以前（含22）即glibc <=2.35，高版本可能会出现bug
+
+# PwnBase
+目前包括一个Kernel PwnBase，一个适用glibc2.35及以下各版本libc的PwnBase(可根据情况在构建题目镜像时自行更换)
+
